@@ -1,0 +1,168 @@
+.wrapper {
+  height: 20rem;
+  border: 0.1rem;
+  display: flex;
+  position: relative;
+  top: 20rem;
+  left: 10rem;
+}
+
+.wrapper .item {
+  min-width: 14rem;
+  min-height: 14rem;
+  line-height: 11rem;
+  background-color: transparent;
+  text-decoration-style: dashed;
+  text-align: center;
+  border-color: black;
+  border-radius: 0.5rem;
+}
+
+.wrapper .item .food {
+  height: 17rem;
+  width: 17rem;
+}
+
+.h1 {
+  position: relative;
+  left: 10rem;
+  top: 6rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h3 {
+  position: relative;
+  left: 10rem;
+  top: 20rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: 40rem;
+  left: 10rem;
+
+}
+.recommend{
+  position: absolute;
+  top: 1rem;
+  text-align: center;
+}
+.header {
+  display: flex;
+}
+
+.header .zomato {
+  height: 3.6rem;
+  width: 14.4rem;
+  top: 12.5rem;
+  margin-left: 45rem;
+}
+
+.header .search {
+  position: relative;
+  height: 5rem;
+  width: 40rem;
+  border-radius: 1rem;
+  border-width: 0.009rem;
+  border-color: gray;
+  left: 3.8rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper .item .itemname {
+  text-align: center;
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  text-decoration-style: solid;
+}
+.itemname{
+  position: relative;
+  bottom: 6rem;
+
+  
+  
+}
+.cards {
+  display: flex;
+  position: relative;
+  top: 45rem;
+  left: 15rem;
+}
+
+.laziz {
+  position: relative;
+  left: 15rem;
+  height: 28.5rem;
+  width: 40rem;
+  border-radius: 1rem;
+  border-width: 0.3rem;
+
+}
+
+.kc {
+  position: relative;
+  left: 20rem;
+  height: 28.5rem;
+  width: 40rem;
+  border-radius: 1rem;
+  border-width: 0.3rem;
+}
+.card-body {
+  position: relative;
+  left: 15rem;
+  font-family: Okra, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+.middleast {
+  position: relative;
+  height: 28.5rem;
+  left: 25rem;
+  width: 40rem;
+  border-radius: 1rem;
+  border-width: 0.3rem;
+}
+.dinning{
+  position: absolute;
+  top:0.1rem;
+  left: 32.5rem;
+  width: 4.7rem;
+  background-color: rgb(58, 183, 87);
+  
+  border: none;
+  border-radius: 0.7rem;
+  height: 3rem;
+  color: white;
+}
+.khanname{
+  position: relative;
+  left: 6rem;
+}.lazizname{
+  position: relative;
+  
+}
+.c2{
+  position: relative;
+  left: 6rem;
+}
+.c3{
+  position: relative;
+  left: 12rem;
+}
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
+}
+@media(max-width:998px){
+  html{
+    font-size: 55%;
+  }
+}
+html{
+  font-size: 10px;
+}

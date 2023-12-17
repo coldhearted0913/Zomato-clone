@@ -1,0 +1,137 @@
+body{
+  position:absolute;
+}
+
+.zomato {
+  height: 36px;
+  width: 144px;
+  top: 125px;
+  margin-left: 600px;
+
+}
+
+.login {
+  border-color: white;
+  position: relative;
+  left: 650px;
+  cursor: pointer;
+  background-color: transparent;
+  height: 50px;
+  width: 100px;
+  color: black;
+  font-size: 1.2em;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.search {
+  height: 40px;
+  width: 50px;
+  margin-left: 40px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: dashed;
+
+}
+
+.signup {
+  border-color: white;
+  position: relative;
+  left: 750px;
+  cursor: pointer;
+  background-color: transparent;
+  height: 50px;
+  width: 130px;
+  color: black;
+  font-size: 1.2em;
+  overflow: hidden;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header {
+  margin-top: 5px;
+}
+
+.photo {
+  position: absolute;
+  width: 500px;
+  left: 500px;
+  top: 250px;
+}
+
+.info {
+  top: 360px;
+  display: block;
+  position: relative;
+  left: 1000px;
+  font-size: 10px;
+}
+
+.info2 {
+  display: flex;
+  position: relative;
+  top: 400px;
+  left: 1000px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.info3 {
+  display: flex;
+  position: relative;
+  top: 425px;
+  left: 1000px;
+  font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.link {
+  width: 90px;
+  height: 35px;
+  color: white;
+  background-color: palevioletred;
+  background: border-box rgb(239, 79, 95);
+  border-color: rgb(239, 79, 95);
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 0.6rem;
+}
+.inputemail{
+  width: 290px;
+  height: 35px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 0.6rem;
+}
+.p{
+  position: relative;
+  top: 450px;
+  left: 1000px;
+}
+.store{
+  display: flex;
+  position: relative;
+  left: 1000px;
+  top: 470px;
+  
+  
+  
+}
+.playstore{
+  width: 200px;
+}
+.appstore{
+  width: 200px;
+  margin-left: 20px;
+}
+.Order-Now{
+  width: 90px;
+  align-items: center;
+  position: relative;
+  top: 390px;
+  left: 1450px;
+}

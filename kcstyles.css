@@ -1,0 +1,320 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+}
+
+.zomato {
+    height: 36px;
+    width: 144px;
+    top: 125px;
+    margin-left: 400px;
+
+}
+
+.login {
+    border-color: white;
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+    color: black;
+    font-size: 1.2em;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.search {
+    height: 40px;
+    width: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: dashed;
+
+}
+
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
+
+
+.signup {
+    border-color: white;
+    position: relative;
+    left: 250px;
+    cursor: pointer;
+    background-color: transparent;
+    height: 50px;
+    width: 130px;
+    color: black;
+    font-size: 1.2em;
+    overflow: hidden;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header {
+    margin-top: 5px;
+}
+
+.khanchacha {
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+}
+
+.khanchacha .name {
+    position: relative;
+    left: 440px;
+    top: 140px;
+    font-size: 60px;
+}
+
+.khanchacha .user .review {
+    position: relative;
+    top: 130px;
+    left: 450px;
+    background-color: transparent;
+    border-radius: 8px;
+    border-width: 0.1px;
+    height: 40px;
+    width: 130px;
+    color: black;
+    margin-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+
+}
+
+.khanchacha .restophoto {
+    position: relative;
+    left: 450px;
+    top: 170px;
+    width: 700px;
+    height: 500px
+}
+
+.intro1 {
+    position: absolute;
+    top: 780px;
+    left: 450px;
+
+}
+
+.intro2 {
+    position: absolute;
+    top: 800px;
+    left: 450px;
+
+}
+
+.cards .photo {
+    position: relative;
+    top: 200px;
+    left: 450px;
+    border-radius: 5px;
+
+}
+
+.cards .foodname {
+    position: relative;
+    left: 590px;
+    top: 400px;
+}
+
+.cards .info1 {
+    position: relative;
+    top: 400px;
+    left: 590px;
+    background-color: #7cb9e8;
+    width: 55px;
+
+}
+
+.cards .info2 {
+    position: relative;
+    top: 361px;
+    left: 650px;
+    background-color: peru;
+    width: 55px;
+
+}
+
+.cards .info3 {
+    position: relative;
+    top: 350px;
+    left: 590px;
+
+}
+
+.checked {
+    color: orange;
+    position: relative;
+    top: 355px;
+    left: 590px;
+}
+
+.menucard {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+
+}
+
+.card-body {
+    position: relative;
+    top: 35px;
+    height: 120px;
+}
+
+.dinning {
+    position: relative;
+    top: 160px;
+    left: 480px;
+    width: 47px;
+    background-color: rgb(58, 183, 87);
+    ;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    color: white;
+}
+
+.delivery {
+    position: relative;
+    top: 68px;
+    left: 680px;
+    width: 47px;
+    background-color: rgb(58, 183, 87);
+    ;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    color: white;
+}
+
+.p1 {
+    position: relative;
+    left: 530px;
+    top: 116px;
+    text-decoration: dashed;
+
+}
+
+.p2 {
+    position: relative;
+    left: 730px;
+    top: 27px;
+    text-decoration: dashed;
+
+}
+
+.khanekichize {
+    position: absolute;
+    margin-top: 2px;
+}
+
+.upperpart {
+    max-width: fit-content;
+}
+
+.check {
+    position: relative;
+    left: 500px;
+    top: 40px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    margin-left: 450px;
+    border: none;
+    border-radius: 7px;
+}
+.outgallery{
+    position: relative;
+    top: 100px;
+    left: 440px;
+
+}
+.mostordered{
+     position: relative;
+     top: 340px;
+
+    
+}
+.side{
+    z-index: 12;
+    background-color: rgb(28, 28, 28);
+    border-radius: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 24px;
+    padding: 2rem 2rem 0px;
+    cursor: pointer;
+    height: 12rem;
+    color: white;
+    font-size: 0.9rem;
+    z-index: 10; 
+    width: 16rem; position: fixed; 
+    top: 45rem; 
+    left: 90rem
+
+
+
+
+}
+.download{
+    position: relative;
+    top: 2rem;
+    height: 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    width:9rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large bold;
+    
+}
+.zomatophoto{
+    position: relative;
+    width: 5.5rem;
+    left: 9.7rem;
+    bottom: 4.5rem;
+    
+}
